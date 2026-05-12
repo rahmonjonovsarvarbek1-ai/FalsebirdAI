@@ -11,7 +11,6 @@ import { useChat } from "./hooks/useChat";
 import ChatInterface from "./components/ChatInterface.jsx";
 import "./index.css";
 
-const [showMood, setShowMood] = useState(true); // false-ni true-ga o'zgartirib ko'r
 
 // ─── Personas ─────────────────────────────────────────────────────────────────
 const PERSONAS = {
