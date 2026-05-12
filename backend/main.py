@@ -88,11 +88,12 @@ app = FastAPI(
 )
 
 # CORS — allow the React dev server and production frontend
+# CORS — allow the React dev server and production frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=ALLOWED_ORIGINS,
+    allow_origins=["*"],  # <--- Shuni ["*"] qilib o'zgartir (vaqtincha)
     allow_credentials=True,
-    allow_methods=["GET", "POST"],
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 

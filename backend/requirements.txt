@@ -4,3 +4,5 @@ uvicorn[standard]>=0.29.0
 pydantic>=2.7.0
 python-dotenv>=1.0.0
 httpx>=0.27.0
+gunicorn          # <-- Buni qo'shish shart
+groq              # <-- Agar Groq ishlatayotgan bo'lsang, buni ham qo'sh
