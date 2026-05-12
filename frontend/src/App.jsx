@@ -8,7 +8,8 @@
 import React from "react";
 import { useChat } from "./hooks/useChat";
 // Oxiriga .jsx qo'shdik:
-import PersonaSwitcher from "./components/PersonaSwitcher.jsx"; 
+// Bu qatorni top va aynan shunday yoz:
+import PersonaSwitcher from "./components/PersonaToggle.jsx"; 
 import ChatInterface from "./components/ChatInterface.jsx"; // Buni ham tekshirib ko'ring
 import "./index.css";
 
