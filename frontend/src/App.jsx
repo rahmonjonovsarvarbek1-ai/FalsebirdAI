@@ -7,8 +7,9 @@
 
 import React from "react";
 import { useChat } from "./hooks/useChat";
-import PersonaSwitcher from "./components/PersonaSwitcher";
-import ChatInterface from "./components/ChatInterface";
+// Oxiriga .jsx qo'shdik:
+import PersonaSwitcher from "./components/PersonaSwitcher.jsx"; 
+import ChatInterface from "./components/ChatInterface.jsx"; // Buni ham tekshirib ko'ring
 import "./index.css";
 
 export default function App() {
