@@ -87,11 +87,10 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# CORS — allow the React dev server and production frontend
-# CORS — allow the React dev server and production frontend
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # <--- Shuni ["*"] qilib o'zgartir (vaqtincha)
+    allow_origins=["*"],  # Mana shu qator hamma joydan kirishga ruxsat beradi
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
