@@ -12,7 +12,8 @@
 
 import { useState, useCallback, useRef } from "react";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+// Eskisini o'chirib, o'rniga buni qo'y:
+const API_BASE = "https://falsebirdai.onrender.com";
 
 // Initial greeting messages so the UI isn't empty on load
 const INITIAL_MESSAGES = {
